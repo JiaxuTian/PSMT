@@ -1,0 +1,25 @@
+MODEL:
+  ADAPTATION: bntest
+  ARCH: Standard
+TEST:
+  BATCH_SIZE: 200
+CORRUPTION:
+  DATASET: cifar10_c
+  SEVERITY:
+    - 5
+  TYPE:
+    - fog
+    - snow
+    - frost
+    - brightness
+    - pixelate
+    - fog
+    - snow
+    - frost
+    - brightness
+    - pixelate
+    - fog
+    - snow
+    - frost
+    - brightness
+    - pixelate

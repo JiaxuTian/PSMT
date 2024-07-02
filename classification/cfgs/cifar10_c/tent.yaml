@@ -1,0 +1,31 @@
+MODEL:
+  ADAPTATION: tent
+  ARCH: Standard
+TEST:
+  BATCH_SIZE: 1
+CORRUPTION:
+  DATASET: cifar10_c
+  SEVERITY:
+    - 5
+  TYPE:
+    - fog
+    - snow
+    - frost
+    - brightness
+    - pixelate
+    - fog
+    - snow
+    - frost
+    - brightness
+    - pixelate
+    - fog
+    - snow
+    - frost
+    - brightness
+    - pixelate
+OPTIM:
+  METHOD: Adam
+  STEPS: 1
+  BETA: 0.9
+  LR: 1e-3
+  WD: 0.
