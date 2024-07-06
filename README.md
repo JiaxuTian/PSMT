@@ -12,7 +12,7 @@ conda env create -f environment.yml
 conda activate psmt
 ```
 
-## Datasets Download
+## Datasets Download（All data and model links are from publicly available models and data）
 
 ### CIFAR10-to-CIFAR10C
 
