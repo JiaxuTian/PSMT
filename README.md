@@ -1,5 +1,5 @@
-# Parameter-Selective Continual Test-Time Adaptation
-
+# Parameter-Selective Continual Test-Time Adaptation [ACCV 2024]
+This is the official implementation of our ACCV 2024 paper "[Parameter-Selective Continual Test-Time Adaptation](https://arxiv.org/pdf/2407.02253)".
 ![png](./docs/model.png)
 
 ## Prerequisite
